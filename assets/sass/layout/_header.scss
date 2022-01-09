@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+}
+
+.header__hero {
+    width: 70%;
+}
+
+.header__title {
+    height: fit-content;
+    width: 30%;
+    margin-top: 7%;
+}
+
+
+.title--main {
+    display: block;
+    text-align: center;
+    font-size: $xxx-large;
+    margin-bottom: 10px;
+}
+
+.title--sub {
+    padding-left: 5em;
+    text-align: left;
+    color: $spanish-gray;
+    font-family: $roboto;
+
+}
+
+.header__title--arrow {
+    position: absolute;
+    width: 9em;
+    height: 9em;
+    background-color: $flame;
+    left: 69%;
+    top: 60%;
+    z-index: 2;
+}
+
+.header__title--arrow-shadow {
+    position: absolute;
+    display: flex;
+    width: 9em;
+    height: 9em;
+    background-color: $buff;
+    left: 71%;
+    top: 63%;
+    z-index: 1;
+}
+
+.arrow--link {
+    width: fit-content;
+    display: block;
+    color: $white;
+    font-size: xxx-large;
+    margin: 0 auto;
+    padding: 35% 0;
+}
